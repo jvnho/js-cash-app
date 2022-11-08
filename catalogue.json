@@ -1,0 +1,33 @@
+{
+    "companyName": "My Shop",
+    "companyAddress": "123 Rue de France, Paris 75013",
+    "companyPhoneNumber": "0784367495",
+    "companyMail": "myshop@contact.fr",
+    "articles": [
+        {
+            "name": "Article 1",
+            "price": "3.99",
+            "quantity": 1
+        },
+        {
+            "name": "Article 2",
+            "price": "6.99",
+            "quantity": 1
+        },
+        {
+            "name": "Article 3",
+            "price": "10.90",
+            "quantity": 1
+        },
+        {
+            "name": "Article 4",
+            "price": "7.99",
+            "quantity": 1
+        },
+        {
+            "name": "Article 5",
+            "price": "11.99",
+            "quantity": 1
+        }
+    ]
+}
