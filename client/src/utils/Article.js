@@ -5,6 +5,10 @@ export class Article{
         this.quantity = quantity;
     }
 
+    equals(other){
+        return this.name === other.getName();
+    }
+
     getName(){
         return this.name;
     }
