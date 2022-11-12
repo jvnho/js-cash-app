@@ -1,8 +1,9 @@
 const express = require('express')
 const app = express()
+const json = require('../catalogue.json');
 
-app.get("/welcome", (req, res) => {
-
-})
+app.get("/datas/", (request, response) => {
+    response.send(json);
+});
 
 app.listen(5000)

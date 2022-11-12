@@ -53,6 +53,7 @@ class Cart{
     }
 }
 
-export {Company}
-export {Catalog}
-export {Article}
+module.exports.company = Company;
+module.exports.catalog = Catalog;
+module.exports.article = Article;
+module.exports.cart = Cart;
